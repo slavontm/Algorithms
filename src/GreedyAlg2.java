@@ -20,6 +20,7 @@ public class GreedyAlg2 {
                 if(nextStop<stations.length - 1 )
                     result++;
 
+
                 currentStop=nextStop;
 
 
