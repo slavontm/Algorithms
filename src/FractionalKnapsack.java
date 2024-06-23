@@ -7,7 +7,7 @@ public class FractionalKnapsack {
         final Item Item1 = new Item(4, 20);
         final Item Item2 = new Item(3, 18);
         final Item Item3 = new Item(2, 14);
-        final Item[] items = {Item1, Item2, Item3};
+        final Item[] items = {Item1, Item2, Item3}; // Nabor predmetov(massiv)
 
 
         Arrays.sort(items, Comparator.comparingDouble(Item::valueUnitOfWeigth).reversed()); // o(n*log(n))
