@@ -5,7 +5,7 @@ public class FibMemo2 {
     //  MemoFibonacci algoritm
 
     public static void main(String[] args) {
-        int fib = 100;
+        int fib = 4;
         long[] mem = new long[fib + 1];
         Arrays.fill(mem, -1);
            System.out.println(LocalTime.now());
